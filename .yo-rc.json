@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "zeam-ChaChaTech-20180822",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "zacky1972",
+    "githubRepository": "zeam-ChaChaTech-20180822"
+  }
+}
