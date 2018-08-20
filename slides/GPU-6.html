@@ -1,0 +1,20 @@
+<h2>
+  GPU駆動のアイデア
+</h2>
+<ul>
+<li>次のような場合に高速に計算できる
+
+<ul>
+<li><strong>単純で均質で大量にあるデータ</strong>を</li>
+<li><strong>同じような命令列</strong>で処理する場合</li>
+</ul></li>
+</ul>
+
+<p class="center">
+  あれ？これって...
+</p>
+<div class="relative">
+  <pre><code class="lang-elixir hljs large">0..10000
+|> Enum.map(foo)
+|> Enum.map(bar)</code></pre>
+</div>
