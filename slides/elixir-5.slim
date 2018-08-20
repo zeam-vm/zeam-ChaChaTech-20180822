@@ -1,0 +1,32 @@
+h2.center
+	span.nonsplit
+		span.heading.strong Elixir &nbsp;
+		img.heading30 src="resources/images/logo.png"
+		span.heading って何よ？
+
+ul
+	li
+		span.strong
+			s 化粧品？
+		span &nbsp; → それは 
+		span.strong ELIXIR エリクシール
+		span 。。。
+	li
+		span.strong プログラミング言語
+		span です！
+
+ruby:
+	def md_Enum_map
+		Redcarpet::Markdown.new(Redcarpet::Render::HTML, :fenced_code_blocks => true).render(<<"EOS"
+	```elixir
+	0..10000                  # 0〜10000のリストを生成する
+	|> Enum.map(foo)          # リストの各要素に foo を適用する
+	|> Enum.map(bar)          # リストの各要素に bar を適用する
+	```
+	EOS
+		)
+	end
+markdown:
+	コード例
+.large
+	== md_Enum_map
