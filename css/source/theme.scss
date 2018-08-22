@@ -82,6 +82,7 @@ p, .left {
 
 img {
 	border-style: none !important;
+	box-shadow: none !important;
 }
 
 span.heading {
@@ -115,8 +116,6 @@ img.icon {
 
 img.icon200 {
 	width: 200px;
-	border-style: none !important;
-	box-shadow: none !important;
 }
 
 img.image400 {
@@ -127,7 +126,6 @@ img.image400 {
 img.image {
 	width: 600px;
 	margin: 30px !important;
-	box-shadow: none !important;
 }
 
 .middle img {

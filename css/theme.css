@@ -35,7 +35,8 @@ p, .left {
   font-weight: bold !important; }
 
 img {
-  border-style: none !important; }
+  border-style: none !important;
+  box-shadow: none !important; }
 
 span.heading {
   vertical-align: middle; }
@@ -61,9 +62,7 @@ img.icon {
   margin: 30px !important; }
 
 img.icon200 {
-  width: 200px;
-  border-style: none !important;
-  box-shadow: none !important; }
+  width: 200px; }
 
 img.image400 {
   width: 400px;
@@ -71,8 +70,7 @@ img.image400 {
 
 img.image {
   width: 600px;
-  margin: 30px !important;
-  box-shadow: none !important; }
+  margin: 30px !important; }
 
 .middle img {
   vertical-align: middle; }
