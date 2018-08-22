@@ -1,5 +1,5 @@
 /**
- * KK-SHiFT theme
+ * Elixir theme
  *
  * Copyright (C) 2017 Marii Yamada & Susumu Yamazaki
  */
@@ -9,13 +9,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .reveal .slides section:before {
   background: url(fukuoka_ex_logo_white.png) no-repeat;
-  background-size: 25px 25px;
+  background-size: 18px 25px;
   content: "";
   height: 25px;
   left: 10px;
   position: absolute;
   top: -32px;
-  width: 25px;
+  width: 18px;
   z-index: 99; }
 
 .reveal .slides section {
