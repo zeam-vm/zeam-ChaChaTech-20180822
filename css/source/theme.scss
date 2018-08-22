@@ -47,9 +47,21 @@ section.has-light-background {
 	}
 }
 
+.reveal .slides section:before {
+  background: url(../../resources/images/fukuoka_ex_logo_white.png) no-repeat;
+  background-size: 20px 20px;
+  content: "";
+  height: 20px;
+  left: 10px;
+  position: absolute;
+  top: -30px;
+  width: 20px;
+  z-index: 99;
+}
+
 .reveal .slides section {
 	border: solid $main-color;
-	border-width: 30px 0;
+	border-width: 40px 0;
 }
 
 html {
